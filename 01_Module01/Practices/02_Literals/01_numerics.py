@@ -1,4 +1,20 @@
-print(##integer)
+print()
+print("#integer")
 print(2)
+print(-2)
+print(10_20_193)
 
+print()
+print("#float")
+print(2.0, "   ", 0.2)
+print(2., "   ", .2)
+print(3E6)
+print(0.000000000000000000000001)
 
+print()
+print("Octal")
+print(0o1234)
+
+print()
+print("Hexadecimal")
+print(0x1234)
