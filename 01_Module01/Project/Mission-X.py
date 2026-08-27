@@ -47,7 +47,7 @@ print("Total Distance\t\t:", earth_moon_distance, "kilometers")
 print("Distance Left\t\t:", (earth_moon_distance - ((current_date - launch_date)*24)*craft_speed), "kilometers") 
 print("Travel Time\t\t:", earth_moon_distance/craft_speed, "Hours")
 print("Elapsed Time\t\t:", (current_date - launch_date)*24, "Hours")
-print("ETA\t\t\t:", ((earth_moon_distance - ((current_date - launch_date)*24)/craft_speed)/craft_speed), "Hours")
+print("ETA\t\t\t:", ((earth_moon_distance - ((current_date - launch_date)*24)*craft_speed)/craft_speed), "Hours")
 
 print("\nFUEL STATUS")
 print("Capacity\t\t:", craft_fuel_capacity, "Liters")
