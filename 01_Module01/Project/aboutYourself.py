@@ -1,2 +1,0 @@
-print("Welcome student. \nI am here to help you to draft your interview introduction passage. \nI need some information aout you. \nPlease answer to my questions. \nAll the best!")
-print("What is your name: ")
